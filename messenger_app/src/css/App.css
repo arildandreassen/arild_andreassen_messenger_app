@@ -1,0 +1,22 @@
+.viewarea {
+  width: 500px;
+  height: 400px;
+  border: 1px solid black;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+form {
+  display: flex;
+}
+
+.writearea {
+  width: 400px;
+  height: 100px;
+}
+
+.sendbutton {
+  width: 100px;
+  height: 100px;
+}

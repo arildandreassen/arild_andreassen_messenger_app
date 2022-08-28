@@ -1,0 +1,14 @@
+.messageBox {
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+.self {
+    background-color: lightgreen;
+    text-align: right;
+}
+
+.other {
+    background-color: lightblue;
+}
