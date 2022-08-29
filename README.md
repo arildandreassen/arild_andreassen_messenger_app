@@ -73,6 +73,8 @@ To type messages to other clients, simply type whatever message you want in the 
 
 Both actions will send the message to any clients connected.
 
+3. `Shift+Enter` will create a new line, and the message can contain multiple lines
+
 ## Notes
 
 1. The app is currently not handling server failures, so if the server is not running and the app attempts to connect, there is no notification that it's not connected. Messages sent will be sent into oblivion.
@@ -86,3 +88,5 @@ Both actions will send the message to any clients connected.
 
 5. The frontend has some tests attached, and can be executed by running `npm run test`
    press `a` to run all tests
+
+6. `Shift+Enter` will create a new line, but after the message is sent, the <textarea> will maintain a blank line and not reset the cursor position.
